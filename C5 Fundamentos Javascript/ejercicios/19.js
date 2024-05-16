@@ -5,6 +5,10 @@ function suma(x, y) {
   // 5, 5 ---> 10
   // -5, 5 ---> 0
   // Tu código:
+  if(typeof x === "number" && typeof y === "number"){
+    return x + y;
+  }else{
+    return 'Dato incorrecto';
+  }
 }
-
 module.exports = suma; 
